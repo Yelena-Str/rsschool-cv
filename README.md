@@ -2,6 +2,8 @@
 ## Junior Frontend Developer
     +38 063 283 1884
     tin.tin.ka.tin.ka.tin@gmail.com
+    discord: Yelena#7963
+    https://Yelena-Str.github.io/rsschool-cv/cv
 
 ## Briefly about myself:
 My first profession is musicology. I have been studing piano and music theory since I was 5 years old. After writing my dissertation theses, I work at the Acadamy of Music.

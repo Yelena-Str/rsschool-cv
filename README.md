@@ -4,7 +4,7 @@
     tin.tin.ka.tin.ka.tin@gmail.com
     telegram: Yelena Strylchuk
     discord: Yelena#7963
-    https://yelena-str.github.io/rsschool-cv/
+    https://yelena-str.github.io/rsschool-cv/cv
 
 ## Briefly about myself:
 My first profession is musicology. I have been studing piano and music theory since I was 5 years old. After writing my dissertation theses, I work at the Acadamy of Music.

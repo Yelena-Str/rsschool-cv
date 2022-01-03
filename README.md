@@ -5,6 +5,7 @@
     telegram: Yelena Strylchuk
     discord: Yelena#7963
     https://yelena-str.github.io/rsschool-cv/cv
+    https://Yelena-Str.github.io/rsschool-cv/
 
 ## Briefly about myself:
 My first profession is musicology. I have been studing piano and music theory since I was 5 years old. After writing my dissertation theses, I work at the Acadamy of Music.

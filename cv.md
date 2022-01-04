@@ -5,7 +5,7 @@
     discord: Yelena#7963
   
 ## Briefly about myself:
-My first profession is musicology. I have been studing piano and music theory since I was 5 years old. After writing my dissertation theses, I work as a teacher at the Acadamy of Music.
+My first profession is musicology. I have been studing piano and music theory since I was 5 years old. After writing my dissertation theses, I work as a lecturer at the Acadamy of Music.
 
 Music and programming have something in common - they are mathematical principles and algorithms. So I started learning JS. Since I am a teacher myself, I made myself a plan for mastering frontend development. I took several courses on HTML and CSS on Hexlet, made a secetion of videos on youtube and educarional games for myself. In the future, I plan to move on to studing libraries and frameworks and move towards backend development.
 

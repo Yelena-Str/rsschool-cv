@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="print.css" media="print">
 </head>
 <body>
-    
+    <! --- main container --->
     <div class="wrapper">
        <aside class="sidebar">
-           <img src="DSC_0777.jpg" alt="My photo" class="my-photo">
+           <img src="./img/photo.jpg" alt="My photo" class="my-photo">
            
             <!---Contacts container-->
             <div class="contacts-container">
@@ -23,6 +25,7 @@
                 <div>
                     <span class="contacts-type">E:</span>
                     <a class="contacts-link" href="mailto:ye_lena@yahoo.com">ye_lena@yahoo.com</a>
+                    <div><a class="contacts-link" href="mailto:tin.tin.ka.tin.ka.tin@gmail.com">tin.tin.ka.tin.ka.tin@gmail.com</a></div>
                 </div>
             </div>
 
@@ -33,9 +36,8 @@
                     <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
-                  
                     <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
-                  
+                   
                 </ul>
             </div>
 
@@ -51,86 +53,21 @@
             </div>  
        </aside>
 
-        
+        <! --- about me container --- >
         <div class="about-me-container">
             <!---about me main info--->
             <div class="info-container">
-                <h2 class="profession">Musicologist  / Front-End Developer</h2>
-                <h1 class="name">Olena Strylchuk</h1>
-                <p class="description">I teach students the history of music at the Academy of Music, I have been playing the piano since the age of 5. I have many desires to visit different music festivals. Therefore, I am looking for an opportunity to earn money outside my specialty.</p>
-            </div>  
+                <h2 class="profession">Front-End Developer</h2>
+                <h1 class="name">Yelena Strylchuk</h1>
+        </div>  
 
-            
-           <!-- <div class="projects-container">
-                <h3 class="projects-title">Projects</h3>
-                <b>
-                <ol class="projects-item">
-                    <li>
-                        <a class="projets-link" href="https://lovecamp.allinsol.com">https://lovecamp.allinsol.com/</a>
-                        <span class="projets-link">.........................</span>
-                        <span>[ <span class="projets-link">HTML5, CSS3</span> ]</span>
-                    </li>
-                    <li>
-                        <a class="projets-link" href="https://cryptohub.goit.ua">https://cryptohub.goit.ua/</a>
-                        <span class="projets-link">...................................</span>
-                        <span>[ <span class="projets-link">JavaScript</span> ]</span>
-                        </li>
-                    <li>
-                        <a class="projets-link" href="https://kidslike.goit.co.ua">https://kidslike.goit.co.ua/</a>
-                        <span class="projets-link">...................................</span>
-                        <span>[ <span class="projets-link">Reeact.js, Node.js</span> ]</span>
-                    </li>
-                </ol>
-                </b>
-            </div> -->
-
-            <!---work experience--->
-            <div>
-                <h3 class="projects-title">Work Experience</h3>
-
-                <!---company 1--->
-                <div>
-                    <h4 class="profession-title">Musicologist<span class="company"></span></h4>
-                    <span class="prof-time">September 2011 - up to now <span class="prof-devider">|</span> Ukraine</span>
-
-                    <ul class="prof-duties">
-                        <li>Lecturer in public speaking</li>
-                        <li>Conference organizer</li>
-                        <li>Drafting contracts and other documentation</li>
-                        <li>Writing scientific texts</li>       
-                    </ul>
-                </div>
-
-                <!---company 2--->
-               <!-- <div>
-                    <h4 class="profession-title">Manager <span class="company">Roga & Kopyta New</span></h4>
-                    <span class="prof-time">March 2015 - October 2019 <span class="prof-devider">|</span> Ukraine</span>
-
-                    <ul class="prof-duties">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
-                        <li>Quis ipsum suspendisse ulrtices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>    
-                    </ul>
-                </div> -->
-
-                <!---company 3--->
-                <!-- <div>
-                    <h4 class="profession-title">Manager <span class="company"></span></h4>
-                    <span class="prof-time">June 2014 - February 2015 <span class="prof-devider">|</span> Ukraine</span>
-
-                    <ul class="prof-duties">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Quis ipsum suspendisse ulrtices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>    
-                    </ul>
-                </div> -->
-
+          
                 <!---Education-->
                 <div>
                     <h3 class="projects-title">Education</h3>
                     <h4 class="company">Odessa National A.V.Nezhdanova Academy of Music</h4>
-                    <p class="musicology">Musicology PhD 2019</p>
-                    <p class="prof-time">September 2008 - June 2013 <span class="prof-devider">|</span> Ukraine</p>
+                    <p class="musicology">Musicology</p>
+                    <p class="prof-time">September '08 - June '13 <span class="prof-devider">|</span> PhD '19</p>
                 </div>
             </div>
         </div>

@@ -132,6 +132,7 @@ body {
 
 .projects-item {
     margin-left: 17px;
+    list-style-position: inside;
 }
 
 .projects-container {

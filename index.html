@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="theme.css">
-    <link rel="stylesheet" type="text/css" href="print.css" media="print">
-</head>
-<body>
-    <! --- main container --->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My CV</title>
+            <link rel="stylesheet" href="./style.css">
+            <link rel="icon" href="assets/favicon.ico">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="theme.css">
+            <link rel="stylesheet" type="text/css" href="print.css" media="print">
+    </head>
+<main>
+    
     <div class="wrapper">
        <aside class="sidebar">
-           <img src="./img/photo.jpg" alt="My photo" class="my-photo">
+           <img src="./greyPhoto.jpg" alt="My photo on Sadova street" class="my-photo">
            
-            <!---Contacts container-->
-            <div class="contacts-container">
-                <h3 class="contacts-title">Contacts</h3>
-                <div>
-                    <span class="contacts-type">C:</span> 
+            
+            <nav class="contacts-container">
+                <h3 class="contacts-title">Contacts:</h3>
+                <div> 
                     <a class="contacts-link" href="tel:+380632831884">+380632831884</a>
                 </div>
-                <div>
-                    <span class="contacts-type">E:</span>
-                    <a class="contacts-link" href="mailto:ye_lena@yahoo.com">ye_lena@yahoo.com</a>
+                <div>                 
                     <div><a class="contacts-link" href="mailto:tin.tin.ka.tin.ka.tin@gmail.com">tin.tin.ka.tin.ka.tin@gmail.com</a></div>
                 </div>
-            </div>
+                <div>
+                    <span class="contacts-type">Discord:</span>                  
+                    <div><a class="contacts-link" href="https://discord.com/channels/516715744646660106/917120666782801991">Yelena#7963</a></div>
+                </div>
+                <div>
+                    <span class="contacts-type">GitHub:</span>                  
+                    <div><a class="contacts-link" href="https://github.com/Yelena-Str">Yelena-Str</a></div>
+                </div>
+            </nav>
 
-            <!---Tech Skills container--->
             <div class="tech-skills-container">
-                <h3 class="tech-skills-title">Tech Skills</h3>
+                <h3 class="tech-skills-title">Tech Skills and Proficiency:</h3>
                 <ul>
-                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5, CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript Basics</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Git, GitHub</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">VS Code</span></li>
                    
                 </ul>
             </div>
 
-            <!---Soft Skills container--->
             <div class="tech-skills-container">
                 <h3 class="tech-skills-title">Soft Skills</h3>
                 <ul>
@@ -52,25 +56,81 @@
                 </ul>
             </div>  
        </aside>
-
-        <! --- about me container --- >
+   
         <div class="about-me-container">
-            <!---about me main info--->
+            
             <div class="info-container">
-                <h2 class="profession">Front-End Developer</h2>
                 <h1 class="name">Yelena Strylchuk</h1>
-        </div>  
-
-          
-                <!---Education-->
-                <div>
-                    <h3 class="projects-title">Education</h3>
-                    <h4 class="company">Odessa National A.V.Nezhdanova Academy of Music</h4>
-                    <p class="musicology">Musicology</p>
-                    <p class="prof-time">September '08 - June '13 <span class="prof-devider">|</span> PhD '19</p>
-                </div>
+                <h2 class="profession">Junior Frontend Developer</h2>     
             </div>
+            
+            <div>
+                <h3 class="projects-title">Briefly about myself:</h3>
+                
+                <p class="musicology">My first profession is musicology. I have been studing piano and music theory since I was 5 years old. After writing my dissertation theses, I work as a lecturer at the Acadamy of Music.</p>
+                <p class="musicology">Music and programming have something in common - they are mathematical principles and algorithms. So I started learning JS. Since I am a teacher myself, I made myself a plan for mastering frontend development. I took several courses on HTML and CSS on Hexlet, made a secetion of videos on youtube and educarional games for myself. In the future, I plan to move on to studing libraries and frameworks and move towards backend development.</p>
+                
+            </div>
+
+            <div>
+                <h3 class="projects-title">Code example:</h3>
+                <p class="musicology">Implement and export a default function that works like this:</p>
+                <p class="musicology">A non-negative integer num is given. Add all the digits included in it until there is one digit left</p>
+                <pre class="prof-time">
+const sumNum = (num) => {
+    let num1 = String(num);
+    let sum = 0;
+    for (let i = 0; i < num1.length; i++) {
+        sum = Number(num1[i]) + sum;
+        };
+    return sum;
+};
+const addDigits = (num) => {
+    let result = num;
+    while (result >= 10) {
+    result = sumNum(result);
+    };
+return result;
+};
+export default addDigits;</pre>
+            </div>
+  
+                <div>
+                    <h3 class="projects-title">Courses:</h3>
+                    <ul>
+                        <li class="musicology">HTML, CSS and JS on <a href="https://ru.code-basics.com">https://ru.code-basics.com/</a> (completed)</li>
+                        <li class="musicology">JavaScript Manual on <a href="https://learn.javascript.ru/">https://learn.javascript.ru/</a> (in progress)</li>
+                        <li class="musicology">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    </ul>
+                                      
+                </div>
+
+                <div>
+                    <h3 class="projects-title">Languages:</h3>
+                    <ul>
+                        <li class="musicology">Ukrainian / Russian - Native</li>
+                        <li class="musicology">Hebrew - Basic</li>
+                        <li class="musicology">English - preIntermediate<p>Every year I have the opportunity to speak English with musicians who come to an international music festival. I know that this is not enough. I have more practice in working with articles about music in English (I wrote a section about them in the dissertation thesis), so I can quite cope with reading the documentation in English </p></li>
+                    </ul>
+                                      
+                </div>
         </div>
+        
     </div>
-</body>
+    <footer class="footer-new">
+        <nav>
+            <span class="contacts-type">GitHub:</span>  
+            <a class="contacts-link" href="https://github.com/Yelena-Str">Yelena-Str</a>
+            <p class="twenty">2022</p>
+        </nav>
+
+        <img src="https://rs.school/images/rs_school_js.svg" alt="Logo Rolling Scopes School" class="Logo">
+        
+        <nav class="twenty">
+            <a class="contacts-link" href="https://rs.school/js/">Rolling Scopes School</a>  
+        </nav>
+    
+    </footer>
+</main>
+
 </html>

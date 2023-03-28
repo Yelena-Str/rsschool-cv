@@ -11,10 +11,10 @@ Music and programming have something in common - they are mathematical principle
 
 ## Skills and Proficiency:
 
-    HTML5, CSS3
+    HTML5, CSS3, SASS
     JavaScript Basics
     Git, GitHub
-    VS Code
+    VS Code, Figma
     
 ## Code example:
 **Quest from Hecklet (Introduction to Programming):**
@@ -40,11 +40,12 @@ export default addDigits;
 ```
 ## Courses:
 ###### HTML, CSS and JS on https://ru.code-basics.com/ (completed)
-###### JavaScript Manual on https://learn.javascript.ru/ (in progress)
-###### RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+###### JavaScript Manual on https://learn.javascript.ua/ (in progress)
+###### RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
 ## Languages:
-###### Ukrainian / Russian - Native
+###### Ukrainian - Native
+###### English - PreIntermediate
 ###### Hebrew - Basic
-###### English - preIntermediate
+
 Every year I have the opportunity to speak English with musicians who come to an international music festival. I know that this is not enough. I have more practice in working with articles about music in English (I wrote a section about them in the dissertation thesis), so I can quite cope with reading the documentation in English 

@@ -10,27 +10,26 @@
             <link rel="stylesheet" type="text/css" href="theme.css">
             <link rel="stylesheet" type="text/css" href="print.css" media="print">
     </head>
-<main>
-    
+
+<body>
     <div class="wrapper">
        <aside class="sidebar">
            <img src="./greyPhoto.jpg" alt="My photo on Sadova street" class="my-photo">
            
-            
             <nav class="contacts-container">
                 <h3 class="contacts-title">Contacts:</h3>
-                <div> 
+                <div>
                     <a class="contacts-link" href="tel:+380632831884">+380632831884</a>
                 </div>
-                <div>                 
+                <div>
                     <div><a class="contacts-link" href="mailto:tin.tin.ka.tin.ka.tin@gmail.com">tin.tin.ka.tin.ka.tin@gmail.com</a></div>
                 </div>
                 <div>
-                    <span class="contacts-type">Discord:</span>                  
+                    <span class="contacts-type">Discord:</span>
                     <div><a class="contacts-link" href="https://discord.com/channels/516715744646660106/917120666782801991">Yelena#7963</a></div>
                 </div>
                 <div>
-                    <span class="contacts-type">GitHub:</span>                  
+                    <span class="contacts-type">GitHub:</span>
                     <div><a class="contacts-link" href="https://github.com/Yelena-Str">Yelena-Str</a></div>
                 </div>
             </nav>
@@ -38,11 +37,10 @@
             <div class="tech-skills-container">
                 <h3 class="tech-skills-title">Tech Skills and Proficiency:</h3>
                 <ul>
-                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5, CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5, CSS3, Sass</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">JavaScript Basics</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">Git, GitHub</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">VS Code</span></li>
-                   
+                    <li class="tech-skills-item"><span class="tech-skills-text">VS Code, Figma</span></li>
                 </ul>
             </div>
 
@@ -54,14 +52,14 @@
                     <li class="tech-skills-item"><span class="tech-skills-text">GTD</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">Teamwork</span></li>
                 </ul>
-            </div>  
+            </div>
        </aside>
    
         <div class="about-me-container">
-            
+
             <div class="info-container">
                 <h1 class="name">Yelena Strylchuk</h1>
-                <h2 class="profession">Junior Frontend Developer</h2>     
+                <h2 class="profession">Junior Frontend Developer</h2>
             </div>
             
             <div>
@@ -77,17 +75,17 @@
                 <p class="musicology">Implement and export a default function that works like this:</p>
                 <p class="musicology">A non-negative integer num is given. Add all the digits included in it until there is one digit left</p>
                 <pre class="prof-time">
-const sumNum = (num) => {
+const sumNum = (num) =&gt {
     let num1 = String(num);
     let sum = 0;
-    for (let i = 0; i < num1.length; i++) {
+    for (let i = 0; i &lt num1.length; i++) {
         sum = Number(num1[i]) + sum;
         };
     return sum;
 };
-const addDigits = (num) => {
+const addDigits = (num) =&gt {
     let result = num;
-    while (result >= 10) {
+    while (result &gt= 10) {
     result = sumNum(result);
     };
 return result;
@@ -99,27 +97,26 @@ export default addDigits;</pre>
                     <h3 class="projects-title">Courses:</h3>
                     <ul>
                         <li class="musicology">HTML, CSS and JS on <a href="https://ru.code-basics.com">https://ru.code-basics.com/</a> (completed)</li>
-                        <li class="musicology">JavaScript Manual on <a href="https://learn.javascript.ru/">https://learn.javascript.ru/</a> (in progress)</li>
-                        <li class="musicology">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                        <li class="musicology">JavaScript Manual on <a href="https://uk.javascript.info/">https://uk.javascript.info/</a> (in progress)</li>
+                        <li class="musicology">RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
                     </ul>
-                                      
                 </div>
 
                 <div>
                     <h3 class="projects-title">Languages:</h3>
                     <ul>
-                        <li class="musicology">Ukrainian / Russian - Native</li>
+                        <li class="musicology">Ukrainian - Native</li>
+                        <li class="musicology">English - PreIntermediate</li>
                         <li class="musicology">Hebrew - Basic</li>
-                        <li class="musicology">English - preIntermediate<p>Every year I have the opportunity to speak English with musicians who come to an international music festival. I know that this is not enough. I have more practice in working with articles about music in English (I wrote a section about them in the dissertation thesis), so I can quite cope with reading the documentation in English </p></li>
+                        <p>Every year I have the opportunity to speak English with musicians who come to an international music festival. I know that this is not enough. I have more practice in working with articles about music in English (I wrote a section about them in the dissertation thesis), so I can quite cope with reading the documentation in English </p>
                     </ul>
-                                      
                 </div>
         </div>
         
     </div>
     <footer class="footer-new">
         <nav>
-            <span class="contacts-type">GitHub:</span>  
+            <span class="contacts-type">GitHub:</span>
             <a class="contacts-link" href="https://github.com/Yelena-Str">Yelena-Str</a>
             <p class="twenty">2022</p>
         </nav>
@@ -127,10 +124,9 @@ export default addDigits;</pre>
         <img src="https://rs.school/images/rs_school_js.svg" alt="Logo Rolling Scopes School" class="Logo">
         
         <nav class="twenty">
-            <a class="contacts-link" href="https://rs.school/js/">Rolling Scopes School</a>  
+            <a class="contacts-link" href="https://rs.school/js/">Rolling Scopes School</a>
         </nav>
-    
     </footer>
-</main>
+</body>
 
 </html>
